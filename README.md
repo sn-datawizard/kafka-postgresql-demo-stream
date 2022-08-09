@@ -32,7 +32,7 @@ After executing all commands the terminal should look similar like this:
 ```
 
 ### Validate installation of Docker
-Start Docker Desktop on you computer.
+Start Docker Desktop on your computer.
 
 Open the terminal and run the command:
 ```

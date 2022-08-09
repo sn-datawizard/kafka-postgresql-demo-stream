@@ -1,0 +1,6 @@
+csv figure: https://pngtree.com/freepng/csv-file-document-icon_4172815.html
+kafka figure: https://icon-icons.com/icon/apache-kafka-logo/167866
+docker figure: https://www.vectorstock.com/royalty-free-vector/astana-kazakhstan-20-july-2020-docker-icon-vector-34243992
+python figure: https://www.iconspng.com/image/68515/python-language-logo
+postgresql figure: https://mobile.twitter.com/azuredbpostgres
+postgresql text figure: https://www.reddit.com/r/PostgreSQL/comments/pp9mnx/a_collection_of_best_postgresql_tutorials_for/

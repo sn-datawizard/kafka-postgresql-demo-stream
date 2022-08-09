@@ -115,6 +115,7 @@ Because of that approach the 'del-fuction' is used to delete already existing da
 
 ### consumer.py
 The consumer takes the generated kafka message and uploads the values into a postgresql database.
+
 psycopg2 is used for the database connection
 
 ### Validate if data stream works

@@ -95,7 +95,7 @@ Now follow these steps:
 1. Right-click on 'Server'
 2. Hover over 'Register', then choose 'Server'
 3. Choose any 'Name' & navigate to the 'Connection' tab
-4. Fill in the required fields
+4. Fill in the required fields & hit the 'Save' button
 
 ![image](https://user-images.githubusercontent.com/77932366/183637136-17a4d70c-234b-493a-a742-62dff3510aa0.png)
 

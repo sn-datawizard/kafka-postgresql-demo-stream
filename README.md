@@ -110,6 +110,7 @@ The required fields can be found in the docker-compose.yml file
 ## Kafka streaming pipeline
 ### producer.py
 Note that kafka is used for handling real-time data feeds. A .csv file is static data so in this script the data will be read line by line to simulate real-time data.
+
 Because of that approach the 'del-fuction' is used to delete already existing data in the dictonary.
 
 ### consumer.py

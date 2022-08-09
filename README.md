@@ -115,6 +115,8 @@ The consumer takes the generated kafka message and uploads the values into a pos
 psycopg2 is used for the database connection
 
 ### Validate if data stream works
+The 'Query Tool' in pgadmin WebUI can be used to query the data (Right-click on 'Tables' --> 'Query Tool').
+
 To validate if real-time data is uploaded to the postgresql database run the following query in pgadmin WebUI multiple times:
 ```
 SELECT * from table1

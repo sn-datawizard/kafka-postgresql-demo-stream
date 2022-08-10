@@ -6,7 +6,7 @@ This repository targets junior data engineers/developers who are interested in c
 
 This repository is perfect for developers who are new to kafka and want to explore kafka beyond the basics mentioned here: https://kafka-python.readthedocs.io/en/master/
 
-This repository is a step-by-step documentation on how to develop a streaming data pipeline locally with kafka-python (https://kafka-python.readthedocs.io/en/master/usage.html).
+This repository is a step-by-step documentation on how to develop a streaming data pipeline locally with kafka-python (https://kafka-python.readthedocs.io/en/master/usage.html) | (https://pypi.org/project/kafka-python/).
 
 For this demo stream the default kafka docker-compose.yml file is used & extendend by a postgresql database and a WebUI (https://developer.confluent.io/quickstart/kafka-docker/).
 
@@ -33,6 +33,8 @@ After executing all commands the terminal should look similar like this:
 (kafka_env) C:\Users\Nikesh\kafka>
 ```
 
+Download the files in this repository & move to newly created directory.
+
 ### Validate installation of Docker
 Start Docker Desktop on your computer.
 
@@ -52,9 +54,10 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
 ### Install required python packages
 ```
-pip install python-kafka
+pip install kafka-python
 pip install postgres
 pip install psycopg2
+pip install pandas
 ```
 ### Run Docker containers in detached mode
 ```
@@ -103,11 +106,14 @@ The required fields can be found in the docker-compose.yml file
 
 ![image](https://user-images.githubusercontent.com/77932366/183638052-7ad07b5b-ba47-4f88-a954-047c793f4e17.png)
 
-5. In the pgadmin Browser navigate to 'Tables'. Later, the created table will be located.
+5. In the pgadmin Browser navigate to 'Tables'. Later, the created table will be located here.
 
 ![image](https://user-images.githubusercontent.com/77932366/183638965-b49fa941-a82b-45d3-b472-3b44ecaa3832.png)
 
 ## Kafka streaming pipeline
+
+Open two terminals, one for executing producer.py & the other one for executing consumer.py.
+
 ### producer.py
 Note that kafka is used for handling real-time data feeds. A .csv file is static data so in this script the data will be read line by line to simulate real-time data.
 

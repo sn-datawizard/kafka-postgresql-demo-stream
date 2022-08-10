@@ -8,7 +8,7 @@ This repository is perfect for developers who are new to kafka and want to explo
 
 This repository is a step-by-step documentation on how to develop a streaming data pipeline locally with kafka-python (https://kafka-python.readthedocs.io/en/master/usage.html).
 
-For this demo stream the default kafka docker-compose.yml file is used & extendend by a postgresql database and a WebUI. 
+For this demo stream the default kafka docker-compose.yml file is used & extendend by a postgresql database and a WebUI (https://developer.confluent.io/quickstart/kafka-docker/).
 
 ## Prerequisites
 - Windows is used for developing
